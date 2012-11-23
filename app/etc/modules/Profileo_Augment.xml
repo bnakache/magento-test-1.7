@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @category    Profileo
+ * @package     Profileo_Augment
+ */
+-->
+<config>
+    <modules>
+        <Profileo_Augment>
+            <active>true</active>
+            <codePool>community</codePool>
+        </Profileo_Augment>
+    </modules>
+</config>

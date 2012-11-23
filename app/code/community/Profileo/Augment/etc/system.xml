@@ -1,0 +1,94 @@
+<?xml version="1.0"?>
+<config>
+	<sections>
+		<augment translate="label" module="augment">
+			<label>AugmentDev</label>
+			<tab>catalog</tab>
+			<frontend_type>text</frontend_type>
+			<sort_order>1500</sort_order>
+			<show_in_default>1</show_in_default>
+			<show_in_website>1</show_in_website>
+			<show_in_store>1</show_in_store>
+			<groups>
+				<general_settings translate="label">
+					<label>General Settings</label>
+					<frontend_type>text</frontend_type>
+					<sort_order>10</sort_order>
+					<show_in_default>1</show_in_default>
+					<show_in_website>1</show_in_website>
+					<show_in_store>1</show_in_store>
+					<fields>
+						<active translate="label">
+							<label>Enabled</label>
+							<frontend_type>select</frontend_type>
+							<source_model>adminhtml/system_config_source_yesno</source_model>
+							<sort_order>10</sort_order>
+							<show_in_default>1</show_in_default>
+							<show_in_website>1</show_in_website>
+							<show_in_store>1</show_in_store>
+						</active>
+						<sender_id translate="label">
+							<label>Sender Id</label>
+							<comment><![CDATA[You need to have an api key provided by Augment.<br/>If you don't have one, please suscribe here: <a href="http://augmentedev.com/uploadInterface/LoginForm.php" target="_blank">Admin site</a>]]></comment>
+							<frontend_type>text</frontend_type>
+							<sort_order>20</sort_order>
+							<show_in_default>1</show_in_default>
+							<show_in_website>1</show_in_website>
+							<show_in_store>1</show_in_store>
+						</sender_id>
+						<units translate="label">
+							<label>Size Unit</label>
+							<comment><![CDATA[The unit in which the size is expressed]]></comment>
+							<frontend_type>select</frontend_type>
+							<source_model>augment/system_config_source_units</source_model>
+							<sort_order>30</sort_order>
+							<show_in_default>1</show_in_default>
+							<show_in_website>1</show_in_website>
+							<show_in_store>1</show_in_store>
+						</units>
+						<lang translate="label">
+							<label>Tutorial Language</label>
+							<comment><![CDATA[The tutorial language]]></comment>
+							<frontend_type>select</frontend_type>
+							<source_model>augment/system_config_source_lang</source_model>
+							<sort_order>40</sort_order>
+							<show_in_default>1</show_in_default>
+							<show_in_website>1</show_in_website>
+							<show_in_store>1</show_in_store>
+						</lang>
+						<popin_style translate="label">
+							<label>Popin Style</label>
+							<comment><![CDATA[This parameter change the style of your popin]]></comment>
+							<frontend_type>select</frontend_type>
+							<source_model>augment/system_config_source_popin</source_model>
+							<sort_order>50</sort_order>
+							<show_in_default>1</show_in_default>
+							<show_in_website>1</show_in_website>
+							<show_in_store>1</show_in_store>
+						</popin_style>						
+					</fields>				
+				</general_settings>
+				<products_3d translate="label">
+					<label>3D Products</label>
+					<frontend_type>text</frontend_type>
+					<sort_order>30</sort_order>
+					<show_in_default>1</show_in_default>
+					<show_in_website>1</show_in_website>
+					<show_in_store>1</show_in_store>
+					<fields>
+						<location translate="label">
+							<label>3D Models Location</label>
+							<comment><![CDATA[Where your 3D Models are stored. And which reference you use if on AugmentDev servers.]]></comment>
+							<frontend_type>select</frontend_type>
+							<source_model>augment/system_config_source_location</source_model>
+							<sort_order>40</sort_order>
+							<show_in_default>1</show_in_default>
+							<show_in_website>1</show_in_website>
+							<show_in_store>1</show_in_store>
+						</location>						
+					</fields>				
+				</products_3d>				
+			</groups>			
+		</augment>
+	</sections>
+</config>	
