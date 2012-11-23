@@ -83,7 +83,7 @@ class Profileo_Augment_Block_Button extends Mage_Catalog_Block_Product
 		$_data['data-title'] 		= $this->product->getName();
 		$_data['data-description'] 	= $this->product->getShortDescription();
 		$_data['data-price'] 		= $this->product->getFinalPrice();
-		$_data['data-author'] 		= "";
+		$_data['data-author'] 		= ""; 
 		$_data['data-currency'] 	= Mage::app()->getStore()->getCurrentCurrencyCode();
 		$_data['data-productUrl'] 	= $this->product->getProductUrl();
 		$_data['data-thumbnailUrl'] = $this->product->getImageUrl();
