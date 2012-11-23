@@ -72,7 +72,7 @@
 					<popin_style>dark</popin_style>					
 				</general_settings>
 				<products_3d>
-					<location>0</location>
+					<location>1</location>
 				</products_3d>
 			</augment>
 	</default>
