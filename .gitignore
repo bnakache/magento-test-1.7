@@ -107,3 +107,4 @@ skin/frontend/enterprise
 skin/install/
 var/
 .DS_Store
+/.project
